@@ -34,6 +34,35 @@ iframe{
     border: 1px solid black;
     width: 55vw;
     height: 80vh;
-    margin-left: 103px;
+    margin-left: 70px;
     margin-top: 40px;
+}
+div{
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+    text-decoration: none;
+    height: 50px;
+    color: black;
+    background-image: linear-gradient(to right, rgba(59, 118, 173, 0.555), lightblue, purple);
+    background-color: rgba(59, 118, 173, 0.555);
+}
+div > a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bolder;
+    background-color: rgba(240, 248, 255, 0.466);
+    border-radius: 5px;
+    margin: 7px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+}
+div > a:hover{
+    
+}
+img{
+    margin-bottom: 450px;
+    margin-top: -10px;
+    margin-left: 3px;
 }

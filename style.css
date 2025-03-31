@@ -60,6 +60,7 @@ footer{
     display: flex;
     flex-flow: row wrap;
     font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 #me{
     justify-content: left;
