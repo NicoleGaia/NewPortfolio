@@ -29,3 +29,11 @@ article{
     margin: auto;
   
 }
+iframe{
+    background-color: white;
+    border: 1px solid black;
+    width: 55vw;
+    height: 80vh;
+    margin-left: 103px;
+    margin-top: 40px;
+}
