@@ -67,9 +67,19 @@ footer{
     display: flex;
     flex-flow: row wrap;
 }
+#me:hover{
+    text-decoration: underline;
+    transform: translate(-2px, -2px);
+    transition: transform 0.2s;
+}
 #project{
     justify-content: right;
     display: flex;
     flex-flow: row wrap;
     margin-right: -60px;
+}
+#project:hover{
+    text-decoration: underline;
+    transform: translate(-2px, -2px);
+    transition: transform 0.2s;
 }

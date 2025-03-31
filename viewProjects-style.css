@@ -59,10 +59,16 @@ div > a{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
 }
 div > a:hover{
-    
+    text-decoration: underline;
+    transform: translate(-2px, -2px);
+    transition: transform 0.2s;
 }
 img{
     margin-bottom: 450px;
     margin-top: -10px;
     margin-left: 3px;
+}
+img:hover{
+    transform: translate(-2px, -2px);
+    transition: transform 0.2s;
 }
