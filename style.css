@@ -59,6 +59,7 @@ footer{
     justify-content: space-around;
     display: flex;
     flex-flow: row wrap;
+    font-family: 'Courier New', Courier, monospace;
 }
 #me{
     justify-content: left;
@@ -69,4 +70,5 @@ footer{
     justify-content: right;
     display: flex;
     flex-flow: row wrap;
+    margin-right: -60px;
 }
